@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CECE8216CEBF2600DA5ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CECE8116CEBF2600DA5ADD /* UIKit.framework */; };
+		57CECE8416CEBF2600DA5ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CECE8316CEBF2600DA5ADD /* Foundation.framework */; };
+		57CECE8616CEBF2600DA5ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CECE8516CEBF2600DA5ADD /* CoreGraphics.framework */; };
+		57CECE8C16CEBF2600DA5ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CECE8A16CEBF2600DA5ADD /* InfoPlist.strings */; };
+		57CECE8E16CEBF2600DA5ADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CECE8D16CEBF2600DA5ADD /* main.m */; };
+		57CECE9216CEBF2600DA5ADD /* CardChooserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CECE9116CEBF2600DA5ADD /* CardChooserAppDelegate.m */; };
+		57CECE9416CEBF2600DA5ADD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECE9316CEBF2600DA5ADD /* Default.png */; };
+		57CECE9616CEBF2600DA5ADD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECE9516CEBF2600DA5ADD /* Default@2x.png */; };
+		57CECE9816CEBF2600DA5ADD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECE9716CEBF2600DA5ADD /* Default-568h@2x.png */; };
+		57CECE9B16CEBF2600DA5ADD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CECE9916CEBF2600DA5ADD /* MainStoryboard.storyboard */; };
+		57CECE9E16CEBF2600DA5ADD /* CardChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CECE9D16CEBF2600DA5ADD /* CardChooserViewController.m */; };
+		57CECEA616CEC0E100DA5ADD /* CardDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CECEA516CEC0E100DA5ADD /* CardDisplayViewController.m */; };
+		57CECEB316CEC1D900DA5ADD /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEA716CEC1D900DA5ADD /* cardBack.png */; };
+		57CECEB416CEC1D900DA5ADD /* K♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEA916CEC1D900DA5ADD /* K♠.png */; };
+		57CECEB516CEC1D900DA5ADD /* K♠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAA16CEC1D900DA5ADD /* K♠@2x.png */; };
+		57CECEB616CEC1D900DA5ADD /* K♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAB16CEC1D900DA5ADD /* K♣.png */; };
+		57CECEB716CEC1D900DA5ADD /* K♣@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAC16CEC1D900DA5ADD /* K♣@2x.png */; };
+		57CECEB816CEC1D900DA5ADD /* K♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAD16CEC1D900DA5ADD /* K♥.png */; };
+		57CECEB916CEC1D900DA5ADD /* K♥@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAE16CEC1D900DA5ADD /* K♥@2x.png */; };
+		57CECEBA16CEC1D900DA5ADD /* K♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEAF16CEC1D900DA5ADD /* K♦.png */; };
+		57CECEBB16CEC1D900DA5ADD /* K♦@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CECEB016CEC1D900DA5ADD /* K♦@2x.png */; };
+		57CECEBC16CEC1D900DA5ADD /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CECEB216CEC1D900DA5ADD /* PlayingCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57CECE7D16CEBF2600DA5ADD /* CardViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CECE8116CEBF2600DA5ADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57CECE8316CEBF2600DA5ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57CECE8516CEBF2600DA5ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57CECE8916CEBF2600DA5ADD /* CardViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardViewer-Info.plist"; sourceTree = "<group>"; };
+		57CECE8B16CEBF2600DA5ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CECE8D16CEBF2600DA5ADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CECE8F16CEBF2600DA5ADD /* CardViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardViewer-Prefix.pch"; sourceTree = "<group>"; };
+		57CECE9016CEBF2600DA5ADD /* CardChooserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardChooserAppDelegate.h; sourceTree = "<group>"; };
+		57CECE9116CEBF2600DA5ADD /* CardChooserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardChooserAppDelegate.m; sourceTree = "<group>"; };
+		57CECE9316CEBF2600DA5ADD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57CECE9516CEBF2600DA5ADD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57CECE9716CEBF2600DA5ADD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57CECE9A16CEBF2600DA5ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		57CECE9C16CEBF2600DA5ADD /* CardChooserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardChooserViewController.h; sourceTree = "<group>"; };
+		57CECE9D16CEBF2600DA5ADD /* CardChooserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardChooserViewController.m; sourceTree = "<group>"; };
+		57CECEA416CEC0E100DA5ADD /* CardDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDisplayViewController.h; sourceTree = "<group>"; };
+		57CECEA516CEC0E100DA5ADD /* CardDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDisplayViewController.m; sourceTree = "<group>"; };
+		57CECEA716CEC1D900DA5ADD /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardBack.png; sourceTree = "<group>"; };
+		57CECEA916CEC1D900DA5ADD /* K♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠.png"; sourceTree = "<group>"; };
+		57CECEAA16CEC1D900DA5ADD /* K♠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠@2x.png"; sourceTree = "<group>"; };
+		57CECEAB16CEC1D900DA5ADD /* K♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣.png"; sourceTree = "<group>"; };
+		57CECEAC16CEC1D900DA5ADD /* K♣@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣@2x.png"; sourceTree = "<group>"; };
+		57CECEAD16CEC1D900DA5ADD /* K♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥.png"; sourceTree = "<group>"; };
+		57CECEAE16CEC1D900DA5ADD /* K♥@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥@2x.png"; sourceTree = "<group>"; };
+		57CECEAF16CEC1D900DA5ADD /* K♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦.png"; sourceTree = "<group>"; };
+		57CECEB016CEC1D900DA5ADD /* K♦@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦@2x.png"; sourceTree = "<group>"; };
+		57CECEB116CEC1D900DA5ADD /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		57CECEB216CEC1D900DA5ADD /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CECE7A16CEBF2600DA5ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CECE8216CEBF2600DA5ADD /* UIKit.framework in Frameworks */,
+				57CECE8416CEBF2600DA5ADD /* Foundation.framework in Frameworks */,
+				57CECE8616CEBF2600DA5ADD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CECE7216CEBF2600DA5ADD = {
+			isa = PBXGroup;
+			children = (
+				57CECE8716CEBF2600DA5ADD /* CardViewer */,
+				57CECE8016CEBF2600DA5ADD /* Frameworks */,
+				57CECE7E16CEBF2600DA5ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57CECE7E16CEBF2600DA5ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CECE7D16CEBF2600DA5ADD /* CardViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CECE8016CEBF2600DA5ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CECE8116CEBF2600DA5ADD /* UIKit.framework */,
+				57CECE8316CEBF2600DA5ADD /* Foundation.framework */,
+				57CECE8516CEBF2600DA5ADD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57CECE8716CEBF2600DA5ADD /* CardViewer */ = {
+			isa = PBXGroup;
+			children = (
+				57CECE9016CEBF2600DA5ADD /* CardChooserAppDelegate.h */,
+				57CECE9116CEBF2600DA5ADD /* CardChooserAppDelegate.m */,
+				57CECE9916CEBF2600DA5ADD /* MainStoryboard.storyboard */,
+				57CECEB116CEC1D900DA5ADD /* PlayingCardView.h */,
+				57CECEB216CEC1D900DA5ADD /* PlayingCardView.m */,
+				57CECEA416CEC0E100DA5ADD /* CardDisplayViewController.h */,
+				57CECEA516CEC0E100DA5ADD /* CardDisplayViewController.m */,
+				57CECE9C16CEBF2600DA5ADD /* CardChooserViewController.h */,
+				57CECE9D16CEBF2600DA5ADD /* CardChooserViewController.m */,
+				57CECE8816CEBF2600DA5ADD /* Supporting Files */,
+			);
+			path = CardViewer;
+			sourceTree = "<group>";
+		};
+		57CECE8816CEBF2600DA5ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CECEA716CEC1D900DA5ADD /* cardBack.png */,
+				57CECEA816CEC1D900DA5ADD /* Face Card Images */,
+				57CECE8916CEBF2600DA5ADD /* CardViewer-Info.plist */,
+				57CECE8A16CEBF2600DA5ADD /* InfoPlist.strings */,
+				57CECE8D16CEBF2600DA5ADD /* main.m */,
+				57CECE8F16CEBF2600DA5ADD /* CardViewer-Prefix.pch */,
+				57CECE9316CEBF2600DA5ADD /* Default.png */,
+				57CECE9516CEBF2600DA5ADD /* Default@2x.png */,
+				57CECE9716CEBF2600DA5ADD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57CECEA816CEC1D900DA5ADD /* Face Card Images */ = {
+			isa = PBXGroup;
+			children = (
+				57CECEA916CEC1D900DA5ADD /* K♠.png */,
+				57CECEAA16CEC1D900DA5ADD /* K♠@2x.png */,
+				57CECEAB16CEC1D900DA5ADD /* K♣.png */,
+				57CECEAC16CEC1D900DA5ADD /* K♣@2x.png */,
+				57CECEAD16CEC1D900DA5ADD /* K♥.png */,
+				57CECEAE16CEC1D900DA5ADD /* K♥@2x.png */,
+				57CECEAF16CEC1D900DA5ADD /* K♦.png */,
+				57CECEB016CEC1D900DA5ADD /* K♦@2x.png */,
+			);
+			path = "Face Card Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CECE7C16CEBF2600DA5ADD /* CardViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CECEA116CEBF2600DA5ADD /* Build configuration list for PBXNativeTarget "CardViewer" */;
+			buildPhases = (
+				57CECE7916CEBF2600DA5ADD /* Sources */,
+				57CECE7A16CEBF2600DA5ADD /* Frameworks */,
+				57CECE7B16CEBF2600DA5ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardViewer;
+			productName = CardViewer;
+			productReference = 57CECE7D16CEBF2600DA5ADD /* CardViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CECE7416CEBF2600DA5ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardChooser;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alex Paul";
+			};
+			buildConfigurationList = 57CECE7716CEBF2600DA5ADD /* Build configuration list for PBXProject "CardViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57CECE7216CEBF2600DA5ADD;
+			productRefGroup = 57CECE7E16CEBF2600DA5ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CECE7C16CEBF2600DA5ADD /* CardViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CECE7B16CEBF2600DA5ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CECE8C16CEBF2600DA5ADD /* InfoPlist.strings in Resources */,
+				57CECE9416CEBF2600DA5ADD /* Default.png in Resources */,
+				57CECE9616CEBF2600DA5ADD /* Default@2x.png in Resources */,
+				57CECE9816CEBF2600DA5ADD /* Default-568h@2x.png in Resources */,
+				57CECE9B16CEBF2600DA5ADD /* MainStoryboard.storyboard in Resources */,
+				57CECEB316CEC1D900DA5ADD /* cardBack.png in Resources */,
+				57CECEB416CEC1D900DA5ADD /* K♠.png in Resources */,
+				57CECEB516CEC1D900DA5ADD /* K♠@2x.png in Resources */,
+				57CECEB616CEC1D900DA5ADD /* K♣.png in Resources */,
+				57CECEB716CEC1D900DA5ADD /* K♣@2x.png in Resources */,
+				57CECEB816CEC1D900DA5ADD /* K♥.png in Resources */,
+				57CECEB916CEC1D900DA5ADD /* K♥@2x.png in Resources */,
+				57CECEBA16CEC1D900DA5ADD /* K♦.png in Resources */,
+				57CECEBB16CEC1D900DA5ADD /* K♦@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CECE7916CEBF2600DA5ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CECE8E16CEBF2600DA5ADD /* main.m in Sources */,
+				57CECE9216CEBF2600DA5ADD /* CardChooserAppDelegate.m in Sources */,
+				57CECE9E16CEBF2600DA5ADD /* CardChooserViewController.m in Sources */,
+				57CECEA616CEC0E100DA5ADD /* CardDisplayViewController.m in Sources */,
+				57CECEBC16CEC1D900DA5ADD /* PlayingCardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57CECE8A16CEBF2600DA5ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CECE8B16CEBF2600DA5ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57CECE9916CEBF2600DA5ADD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CECE9A16CEBF2600DA5ADD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CECE9F16CEBF2600DA5ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57CECEA016CEBF2600DA5ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CECEA216CEBF2600DA5ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardViewer/CardViewer-Prefix.pch";
+				INFOPLIST_FILE = "CardViewer/CardViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57CECEA316CEBF2600DA5ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardViewer/CardViewer-Prefix.pch";
+				INFOPLIST_FILE = "CardViewer/CardViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CECE7716CEBF2600DA5ADD /* Build configuration list for PBXProject "CardViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CECE9F16CEBF2600DA5ADD /* Debug */,
+				57CECEA016CEBF2600DA5ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CECEA116CEBF2600DA5ADD /* Build configuration list for PBXNativeTarget "CardViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CECEA216CEBF2600DA5ADD /* Debug */,
+				57CECEA316CEBF2600DA5ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CECE7416CEBF2600DA5ADD /* Project object */;
+}
